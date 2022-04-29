@@ -8,8 +8,8 @@
 html, body {
     font-family: Hellix;
     color: #111235;
-    height: 100vh;
-    width: 100%;
+    min-height: 100vh;
+    min-width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,19 +38,13 @@ html, body {
     box-shadow: 0px 0px 1px 0px #0000000A,
         0px 2px 6px 0px #0000000A,
         0px 10px 20px 0px #0000000A;
-    /* border: 1px solid red; */
     margin-bottom: 40px;
-}
-
-.divider {
-    width: 414px;
-    height: 1px;
-    
 }
 
 .panel {
     height: 860px;
     width: 414px;
+    margin-bottom: 120px;
 }
 
 .panel-1 {
@@ -62,6 +56,9 @@ html, body {
 
 img {
     width: 100%;
+}
+
+.panel-1 img {    
     margin-bottom: 40px;
 }
 
@@ -111,12 +108,27 @@ panel-2 {
     height: 686px;
 }
 
+.panel-2 img {
+    margin-bottom: 80px;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 58px;    
+}
+
+.panel-2 h2 {
+    margin-bottom: 20px;
+}
+
 panel-3 {
     height: 942px;
 }
 
 panel-4 {
     height: 1876px;
+    margin-bottom: 86px;
 }
 
 /* I am including the last blank section after the copyright in this panel. */
