@@ -2,6 +2,8 @@
     margin: unset;
     padding: unset;
     font-size: unset;
+    font-family: unset;
+    color: unset;
 }
 
 
@@ -14,6 +16,7 @@ html, body {
     flex-direction: column;
     align-items: center;
     box-sizing: border-box;
+    background: linear-gradient(7.28deg, #EEF5FF 0%, #FFFFFF 99.69%);
 }
 
 .outermost-container {
@@ -31,7 +34,6 @@ html, body {
 .logo-container {
     height: 75px;
     width: 414px;
-    font-size: 36px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,10 +43,18 @@ html, body {
     margin-bottom: 40px;
 }
 
+.logo {    
+    font-size: 36px;    
+}
+
 .panel {
+    /* border: 1px solid black; */
     height: 860px;
     width: 414px;
     margin-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .panel-1 {
@@ -69,7 +79,7 @@ h1 {
 }
 
 .body-text-container {
-    max-width: 384px;
+    max-width: 382px;
 }
 
 .body-text {
@@ -84,7 +94,6 @@ h1 {
     align-items: center;
     height: 59px;
     width: 252px;
-    border: 1px solid black;
     border-radius: 30px;
     font-weight: 600;
     font-size: 18px;
@@ -122,21 +131,148 @@ h2 {
     margin-bottom: 20px;
 }
 
-panel-3 {
-    height: 942px;
+.panel-3 {
+    height: 942px;    
+    background: linear-gradient(99.85deg, #BAD5FF 0%, #6487BF 100%);
+    position: relative;
 }
 
-panel-4 {
+.panel-3 h2 {
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+/* TEMPORARY STYLES */
+.panel-1, .panel-2, .panel-3, .panel-4 {
+    display: none;
+}
+/* TEMPORARY STYLES */
+
+h4, h5 {
+    font-size: 18px;
+}
+
+h5 {
+    font-weight: 600;
+}
+
+.panel-3 h4 {
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.panel-3 p {
+    text-align: center;
+}
+
+.panel-3 .sign-up-button {
+    margin-top: 30px;
+    background-color: #FFFFFF;
+    color: #436BAA;
+}
+
+.panel-3 img {
+    position: absolute;
+    bottom: 0px;
+}
+
+.panel-4 {
     height: 1876px;
     margin-bottom: 86px;
 }
 
-/* I am including the last blank section after the copyright in this panel. */
-panel-5 {
-    height: 840px;
+.panel-4 img {
+    margin-bottom: 40px;
+}
+
+.panel-4 h2 {
+    margin-bottom: 40px;
+}
+
+.sub-panel {
+    width: 382px;
+    height: 274px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+
+.sub-panel-inner-container {
+    padding-top: 50px;
+    margin-left: 40px;
+    margin-right: 54px
+}
+
+.sub-panel-inner-container p {
+    margin-left: 2px;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 28.8px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.color-1 {
+    background-color: #E4F0FF;    ;
+}
+
+.color-2 {
+    background-color: #727AEF1A;
+}
+
+.panel-4 .button {
+    margin-top: 20px;
+}
+
+.divider {
+    width: 401px;
+    height: 1px;
+    background: #0000004D;
+    margin-bottom: 50px;
 
 }
 
-panel-6 {
+/* I am including the last blank section after the copyright in this panel. */
+.panel-5 {
+    height: 840px;
+}
+
+.panel-5 .logo {
+    margin-bottom: 50px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.panel-5 h5 {
+    box-sizing: border-box;
+    margin-right: 38px;
+    margin-bottom: 16px;
+}
+
+input[type=email] {
+    height: 40px;
+    width: 255px;
+
+}
+
+input[type=email]::placeholder {
+    padding-left: 14px;
+    color: #111235;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.panel-6 {
 
 }
