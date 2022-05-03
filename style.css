@@ -144,7 +144,7 @@ h2 {
 
 /* TEMPORARY STYLES */
 .panel-1, .panel-2, .panel-3, .panel-4 {
-    display: none;
+    /* display: none; */
 }
 /* TEMPORARY STYLES */
 
