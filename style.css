@@ -144,7 +144,7 @@ h2 {
 
 /* TEMPORARY STYLES */
 .panel-1, .panel-2, .panel-3, .panel-4 {
-    /* display: none; */
+    display: none;
 }
 /* TEMPORARY STYLES */
 
@@ -264,7 +264,10 @@ li {
 input[type=email] {
     height: 40px;
     width: 255px;
+}
 
+form {
+    position: relative;
 }
 
 input[type=email]::placeholder {
@@ -272,6 +275,15 @@ input[type=email]::placeholder {
     color: #111235;
     font-weight: 500;
     font-size: 14px;
+}
+
+#email-icon {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    right: 7px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .panel-6 {
