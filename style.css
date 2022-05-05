@@ -20,11 +20,16 @@ html, body {
 }
 
 .outermost-container {
-    max-width: 414px;
+    /* max-width: 414px; */
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
+    border: 1px solid red;
+}
+
+nav {
+    display: none;
 }
 
 .logo-container, h1 {
@@ -33,7 +38,8 @@ html, body {
 
 .logo-container {
     height: 75px;
-    width: 414px;
+    max-width: 414px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,14 +47,18 @@ html, body {
         0px 2px 6px 0px #0000000A,
         0px 10px 20px 0px #0000000A;
     margin-bottom: 40px;
+    border: 1px solid purple;
 }
 
 .logo {    
     font-size: 36px;    
 }
 
+.maxstrong-box {
+    border: 1px solid red;
+}
+
 .panel {
-    /* border: 1px solid black; */
     height: 860px;
     width: 414px;
     margin-bottom: 120px;
@@ -324,17 +334,19 @@ input[type=email]::placeholder {
     margin-top: 60px;
     font-size: 14px;
     font-weight: 500;
-}/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {...}
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {...}
+@media only screen and (min-width: 600px) {}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {...}
+@media only screen and (min-width: 768px) {}
 
 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {...}
+@media only screen and (min-width: 1200px) {}
 

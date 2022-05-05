@@ -1,0 +1,44 @@
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .outermost-container {
+        max-width: unset;
+        width: 992px;
+        border: 1px solid red;
+    }
+
+    .logo-container {
+        box-shadow: unset;
+        border: 1px solid blue;
+        display: flex;
+        justify-content: left;
+        margin-bottom: unset;
+    }
+
+    .desktop-logo-and-nav {
+        border: 1px solid black;
+        width: 79%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav {
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        border: 3px solid green;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    nav a {
+        text-decoration: none;
+    }
+
+    nav img {
+        padding-top: 2px;
+        width: 15px;
+        
+    }
+
+}
