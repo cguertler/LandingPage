@@ -30,7 +30,11 @@
 
     nav a {
         text-decoration: none;
-    }
+    }       
+
+    /* ************************** */
+    /*          Panel-1           */
+    /* ************************** */
 
     .panel-1 {
         flex-direction: row-reverse;
@@ -49,7 +53,11 @@
 
     .panel-1 h1, .panel-1 p {
         text-align: left;
-    }
+    }       
+
+    /* ************************** */
+    /*          Panel-2           */
+    /* ************************** */
 
     .panel-2 {
         flex-direction: row;
@@ -58,7 +66,7 @@
     }
 
     .panel-2-top {
-        border:? 1px solid red;
+        /* border: 1px solid red; */
         margin: unset;
         width: 50%;
     }
@@ -81,7 +89,46 @@
         /* border: 1px solid purple; */
         margin: 0 16% 0 12%;
         padding: unset;
+    }    
+
+    /* ************************** */
+    /*          Panel-3           */
+    /* ************************** */
+
+    .panel-3 {
+        flex-direction: row-reverse;  
+        justify-content: space-around;
+        padding: unset;     
+        /* border: 1px solid red; */
     }
+
+    .panel-3 img {
+        width: 36%;
+        margin-right: -100px;
+    }
+
+    .panel-3 h2 {
+        text-align: left;
+    }
+
+    .panel-3 p {
+        text-align: left;
+        margin: unset;
+    }
+
+    .panel-3 .text-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 32%;
+        padding: unset;
+        margin-left: -100px;
+    }    
+
+    /* ************************** */
+    /*          Panel-4           */
+    /* ************************** */
+
 
 
 

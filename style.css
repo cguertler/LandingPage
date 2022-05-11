@@ -3,6 +3,7 @@
     padding: unset;
     font-size: unset;
     font-family: unset;
+    color: unset;
 }
 
 
@@ -33,6 +34,10 @@ nav {
     flex-direction: column;
     justify-content: center;
 }
+
+/* ************************** */
+/*          Panel-1           */
+/* ************************** */
 
 .panel-1, .panel-2-top, .panel-2-bottom 
 .text-content {
@@ -85,6 +90,10 @@ h2 {
     line-height: 57.6px;
 }
 
+h3 {
+    font-size: 18px;
+    font-weight: 500;
+}
 
 
 .body-text {
@@ -111,16 +120,23 @@ h2 {
     color: #ffffff;
 }
 
-.word-emphasis {
+.text-emphasis {
     font-weight: 700;
 }  
 
 /* Temporary style */
-.panel-1 {
+.panel-1, .panel-2 {
     /* display: none; */
 }
 /* Temporary style */
 
+/* ************************** */
+/*          Panel-2           */
+/* ************************** */
+
+.panel-2 {
+    margin-bottom: 50px;
+}
 
 .panel-2-top {
     margin-top: 110px;
@@ -136,11 +152,52 @@ h2 {
 
 .panel-2-bottom .text-content {
     align-items: flex-start;
-    padding-bottom: 45px;
+    padding-bottom: 20px;
 }
 
 .panel-2-bottom h2 {
     text-align: left;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 25px;
 }
+
+/* ************************** */
+/*          Panel-3           */
+/* ************************** */
+
+.panel-3 {
+    background: linear-gradient(99.85deg, #BAD5FF 0%, #6487BF 100%);
+    padding-top: 90px;
+}
+
+.panel-3 h2 {
+    text-align: center;
+}
+
+.panel-3 h3 {
+    margin-top: 15px;
+    margin-bottom: 35Px;
+    text-align: center;
+}
+
+.panel-3 .text-content {
+    margin-bottom: 50px;    
+}
+
+.panel-3 p {
+    text-align: center;
+    margin: 0 20px 0;
+}
+
+.secondary-button {
+    background-color: #ffffff;
+    color: #436BAA;
+}
+
+.panel-3 .button {
+    margin-top: 40px;
+}
+
+/* ************************** */
+/*          Panel-4           */
+/* ************************** */
