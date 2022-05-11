@@ -9,7 +9,7 @@
 html, body {
     font-family: Hellix;
     color: #111235;
-    /* background: linear-gradient(7.28deg, #EEF5FF 0%, #FFFFFF 99.69%); */
+    background: linear-gradient(7.28deg, #EEF5FF 0%, #FFFFFF 99.69%);
 }
 
 .logo-and-nav-container {
@@ -51,7 +51,7 @@ nav {
     text-align: center;
 }
 
-img {
+.panel-1 img {
     width: 95%;
 }
 
@@ -100,7 +100,7 @@ h2 {
     align-items: center;
     height: 59px;
     width: 252px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 30px;
     font-weight: 600;
     font-size: 18px;
@@ -121,9 +121,6 @@ h2 {
 }
 /* Temporary style */
 
-.panel-2 {
-    flex-direction: row;
-}
 
 .panel-2-top {
     margin-top: 110px;

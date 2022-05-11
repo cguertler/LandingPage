@@ -34,8 +34,13 @@
 
     .panel-1 {
         flex-direction: row-reverse;
+    }
+
+    .panel-1, .panel-2 {
         margin-left: 50px;
     }
+
+    
 
     .text-content {
         padding-top: 200px;
@@ -45,6 +50,40 @@
     .panel-1 h1, .panel-1 p {
         text-align: left;
     }
+
+    .panel-2 {
+        flex-direction: row;
+        margin-right: 100px;
+        /* border: 1px solid black; */
+    }
+
+    .panel-2-top {
+        border:? 1px solid red;
+        margin: unset;
+        width: 50%;
+    }
+
+    .panel-2 img {
+        /* border: 1px solid magenta; */
+        margin: unset;
+    }
+
+    .panel-2-bottom {
+        /* border: 1px solid green; */
+        display: flex;
+        align-items: center;
+        border-radius: 50px;
+        margin: unset;
+        width: 50%;
+    }
+
+    .panel-2 .text-content {
+        /* border: 1px solid purple; */
+        margin: 0 16% 0 12%;
+        padding: unset;
+    }
+
+
 
 
 }
