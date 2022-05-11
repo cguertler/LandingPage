@@ -1,0 +1,50 @@
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    .logo-and-nav-container {
+        justify-content: space-between;
+        width: unset;
+        margin: 0 50px;
+    }
+
+    .logo-container {
+        width: unset;
+
+    }
+
+    .logo-container {
+        box-shadow: unset;
+    }
+
+    nav {
+        display: block;
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;  
+        font-size: 16px;             
+        font-weight: 500;
+        font-family: Hellix;
+        margin-right: 65px;
+    }
+
+    nav a {
+        text-decoration: none;
+    }
+
+    .panel-1 {
+        flex-direction: row-reverse;
+        margin-left: 50px;
+    }
+
+    .text-content {
+        padding-top: 200px;
+        align-items: flex-start;
+    }
+
+    .panel-1 h1, .panel-1 p {
+        text-align: left;
+    }
+
+
+}

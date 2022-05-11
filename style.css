@@ -2,18 +2,22 @@
     margin: unset;
     padding: unset;
     font-size: unset;
+    font-family: unset;
 }
 
 
 html, body {
     font-family: Hellix;
     color: #111235;
+    /* background: linear-gradient(7.28deg, #EEF5FF 0%, #FFFFFF 99.69%); */
 }
 
 .logo-and-nav-container {
+    box-sizing: border-box;
     width: 100vw;
     display: flex;
     justify-content: center;
+    /* border: 1px solid black; */
 }
 
 nav {
@@ -26,29 +30,69 @@ nav {
 
 .panel {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+}
+
+.panel-1, .panel-2-top, .panel-2-bottom 
+.text-content {
+    margin: 35px 10px;
+}
+
+.panel-1 h1 {
+    margin: 20px 10px 20px;
+}
+
+.panel-1 p {
+    margin-bottom: 40px;
+}
+
+.panel-1 h1, .panel-1 p {
+    text-align: center;
 }
 
 img {
     width: 95%;
 }
 
- 
+.text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .logo-container {
     font-size: 36px;
+    height: 75px;
+    width: 100%;
+    box-shadow: 0px 0px 1px 0px #0000000A,
+        0px 2px 6px 0px #0000000A,
+        0px 10px 20px 0px #0000000A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-/*
+
 
 h1 {
     font-size: 64px;
     line-height: 75px;
 }
 
+h2 {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 57.6px;
+}
+
+
+
 .body-text {
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
 }
+
 
 .button {
     display: flex;
@@ -66,7 +110,40 @@ h1 {
     background-color: #4B5092;
     color: #ffffff;
 }
-*/
+
 .word-emphasis {
     font-weight: 700;
-} 
+}  
+
+/* Temporary style */
+.panel-1 {
+    /* display: none; */
+}
+/* Temporary style */
+
+.panel-2 {
+    flex-direction: row;
+}
+
+.panel-2-top {
+    margin-top: 110px;
+}
+
+.panel-2-top img {
+    margin-bottom: 40px;
+}
+
+.panel-2-bottom {    
+    background-color: #F2F8FF;
+}
+
+.panel-2-bottom .text-content {
+    align-items: flex-start;
+    padding-bottom: 45px;
+}
+
+.panel-2-bottom h2 {
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
