@@ -95,6 +95,12 @@ h3 {
     font-weight: 500;
 }
 
+h4 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+}
+
 
 .body-text {
     font-size: 16px;
@@ -125,8 +131,8 @@ h3 {
 }  
 
 /* Temporary style */
-.panel-1, .panel-2 {
-    /* display: none; */
+.panel-1, .panel-2, .panel-3 {
+    display: none;
 }
 /* Temporary style */
 
@@ -168,6 +174,7 @@ h3 {
 .panel-3 {
     background: linear-gradient(99.85deg, #BAD5FF 0%, #6487BF 100%);
     padding-top: 90px;
+    margin-bottom: 115px;
 }
 
 .panel-3 h2 {
@@ -201,3 +208,51 @@ h3 {
 /* ************************** */
 /*          Panel-4           */
 /* ************************** */
+.panel-4 {
+    /* align-items: center; */
+}
+
+.panel-4 h2 {
+    margin: 65px 10px 0;
+}
+
+.panel-4 .text-content{
+    margin: 0 10px 0;
+}
+
+.panel-4 h2 {
+    margin-bottom: 25px;
+}
+
+.sub-panel {
+    border-radius: 30px;
+    margin: 5px 3px;
+    padding: 40px 25px;
+}
+
+.color-1 {
+    background-color: #E4F0FF;
+}
+
+.color-2 {
+    background: #727AEF1A;
+}
+
+.sub-panel h4 {
+    margin-bottom: 17px;
+}
+
+.sub-panel-body-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.panel-4 .button {
+    margin: 30px auto 50px auto;
+}
+
+.divider {
+    width: 95%;
+    border: 1px solid #0000004D;
+}
