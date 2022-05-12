@@ -132,7 +132,7 @@ h4 {
 
 /* Temporary style */
 .panel-1, .panel-2, .panel-3 {
-    display: none;
+    /* display: none; */
 }
 /* Temporary style */
 

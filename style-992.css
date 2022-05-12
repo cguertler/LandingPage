@@ -4,12 +4,12 @@
     .logo-and-nav-container {
         justify-content: space-between;
         width: unset;
-        margin: 0 50px;
+        /* margin: 0 50px; */
+        margin: 0 4% 0 10%;
     }
 
     .logo-container {
         width: unset;
-
     }
 
     .logo-container {
@@ -41,19 +41,23 @@
     }
 
     .panel-1, .panel-2 {
-        margin-left: 50px;
+        margin-left: 10%;
     }
 
     
 
     .text-content {
-        padding-top: 200px;
+        padding-top: 100px;
         align-items: flex-start;
     }
 
     .panel-1 h1, .panel-1 p {
         text-align: left;
     }       
+
+    .panel-1 h1 {
+        margin: 0 0 20px 0;
+    }
 
     /* ************************** */
     /*          Panel-2           */
@@ -130,6 +134,7 @@
     /* ************************** */
 
     .panel-4 {
+        margin-right: 5%;
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-between;
@@ -137,15 +142,15 @@
 
     .panel-4 h2 {
         order: 1;
-        margin: 0 0 0 10%;
-        border: 1px solid red;
+        margin: 0 0 40px 10%;
+        /* border: 1px solid red; */
         
     }
 
     .panel-4 .button {
         order: 2;
         margin: 0 50px 0 0 ;
-        border: 1px solid black;
+        /* border: 1px solid black; */
     }
 
     .panel-4 .text-content {
@@ -156,11 +161,11 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        border: 1px solid black;
+        /* border: 1px solid black; */
     }
 
     .sub-panel {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         width: 700px;
         flex-grow: 1;
         
@@ -173,12 +178,19 @@
         object-fit: contain;
 
         margin: unset;
-        border: 1px solid black;
+        /* border: 1px solid black; */
         
     }
 
     .sub-panel {
+        /* box-sizing: border-box; */
         width: 30%;
+        min-height: 171px;
+    }
+
+    .divider {
+        width: 85%;
+        margin: 100px 0 0 10%;
     }
 
 
