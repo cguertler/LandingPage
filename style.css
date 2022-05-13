@@ -2,14 +2,14 @@
     margin: unset;
     padding: unset;
     font-size: unset;
-    font-family: unset;
     color: unset;
     border: none;
+
+    font-family: Hellix;
 }
 
 
 html, body {
-    font-family: Hellix;
     color: #111235;
     background: linear-gradient(7.28deg, #EEF5FF 0%, #FFFFFF 99.69%);
     background-repeat: no-repeat;
@@ -133,7 +133,7 @@ h4 {
 
 /* Temporary style */
 .panel-1, .panel-2, .panel-3, .panel-4 {
-    display: none;
+    /* display: none; */
 }
 /* Temporary style */
 
@@ -298,7 +298,7 @@ h4 {
 .email-header {
     font-size: 18px;
     font-weight: 600; 
-    padding: 40px 35px 40px 0;  
+    padding: 50px 35px 20px 0;  
     /* border: 1px solid blue;  */
 }
 
@@ -319,7 +319,8 @@ input[type="email"]{
 input[type="email"]::placeholder{
     font-size: 14px;
     font-weight: 400;
-    padding-left: 10px;    
+    padding-left: 10px; 
+    font-family: Hellix;   
 
 }
 
