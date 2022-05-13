@@ -12,7 +12,7 @@
         width: unset;
     }
 
-    .logo-container {
+    .logo-and-nav-container .logo-container {
         box-shadow: unset;
     }
 
@@ -191,7 +191,12 @@
     .divider {
         width: 85%;
         margin: 100px 0 0 10%;
-    }
+    }    
+
+    /* ************************** */
+    /*          Panel-5 - Footer  */
+    /* ************************** */
+
 
 
 
