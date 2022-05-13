@@ -197,6 +197,29 @@
     /*          Panel-5 - Footer  */
     /* ************************** */
 
+    .panel-5 {
+        flex-direction: row;
+        align-items: flex-end;
+        flex-wrap: wrap;
+        border: 1px solid blue;
+    }
+
+    .panel-5 ul {
+        flex-wrap: wrap;
+        align-items: flex-start;
+        border: 1px solid red;
+        height: 80px;
+    }
+
+    .panel-5 li {
+        margin-left: 70px;
+    }
+   
+
+    .social-media-icons {
+        display: none;
+    } 
+
 
 
 
