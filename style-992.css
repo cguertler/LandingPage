@@ -234,15 +234,19 @@
 
     .panel-5 .email {
         border: 1px solid purple;
+        width: unset;
+        align-items: flex-start;
         /* flex-basis: 100px; */
     }
 
     .email-header {
-        pad: 40px 0;
+        padding: 40px 0;
+        border: 1px solid red;
     }
 
     form {
         max-width: unset;
+        height: 40px;
     }
 
     input[type="email"]{
@@ -250,6 +254,10 @@
     }
 
     /* copyright */
+    .copyright {
+        border: 1px solid maroon;
+        width: 100%;
+    }
 
 
 
