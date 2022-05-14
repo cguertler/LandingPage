@@ -147,7 +147,7 @@
         
     }
 
-    .panel-4 .button {
+    .panel-4 button {
         order: 2;
         margin: 0 50px 0 0 ;
         /* border: 1px solid black; */
